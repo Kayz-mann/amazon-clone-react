@@ -1,13 +1,13 @@
 export const initialState = {
   basket: [
-    {
-      id: "12321341",
-      title: "Laptop Acessories: Case Cover",
-      price: 11.96,
-      rating: 5,
-      image:
-        "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/July/amazonbasics_520x520._SY304_CB442725065_.jpg",
-    },
+    // {
+    //   id: "12321341",
+    //   title: "Laptop Acessories: Case Cover",
+    //   price: 11.96,
+    //   rating: 5,
+    //   image:
+    //     "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/July/amazonbasics_520x520._SY304_CB442725065_.jpg",
+    // },
   ],
   user: null,
 };

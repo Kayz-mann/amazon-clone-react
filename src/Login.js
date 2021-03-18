@@ -16,6 +16,7 @@ function Login() {
       .signInWithEmailAndPassword(email, password)
       .then((auth) => {
         // logged in, redirect to homepage...
+        
         history.push("/"); // this is used to push and validate logged password to db
       })
       .catch((e) => alert(e.message));
@@ -28,7 +29,10 @@ function Login() {
       .createUserWithEmailAndPassword(email, password)
       .then((auth) => {
         // created  user and logged in, redirect to homepage
-        history.push("/");
+        if (auth) {
+          history.push("/");
+        }
+        
       })
       .catch((e) => alert(e.message));
   };
